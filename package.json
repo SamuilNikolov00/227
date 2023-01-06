@@ -65,5 +65,10 @@
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json",
     "release": "standard-version"
   },
-  "target": "web"
+  "target": "web",
+  "dependencies": {
+    "digital": "^0.0.1",
+    "envelope": "^2.1.0",
+    "routines": "^0.3.0"
+  }
 }
